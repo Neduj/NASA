@@ -12,13 +12,17 @@ import {HttpClientModule} from "@angular/common/http";
 import {PictureMinComponent} from "./components/picture-min/picture-min.component";
 import {ImgViewDialogComponent} from "./components/picture-min/img-view-dialog/img-view-dialog.component";
 import {MatCardModule} from "@angular/material/card";
+import {
+  ImgInfoBottomSheetComponent
+} from "./components/picture-min/img-view-dialog/img-info-bottom-sheet/img-info-bottom-sheet.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     PictureMinComponent,
-    ImgViewDialogComponent
+    ImgViewDialogComponent,
+    ImgInfoBottomSheetComponent
   ],
   imports: [
     BrowserModule,

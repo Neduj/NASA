@@ -5,4 +5,5 @@ div {
 mat-icon {
   position: absolute;
   padding: 15px 15px 0;
+  cursor: pointer;
 }
