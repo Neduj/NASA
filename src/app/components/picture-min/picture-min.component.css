@@ -1,0 +1,16 @@
+.container {
+  width: 800px;
+  height: 830px;
+}
+
+img {
+  margin: 5px 5px 0 5px;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+/*img:hover {*/
+/*  width: 200px;*/
+/*  height: 200px;*/
+/*}*/

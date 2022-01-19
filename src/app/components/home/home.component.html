@@ -1,0 +1,11 @@
+<div *ngIf="(data$ | async) as data" fxLayout="column" fxLayoutAlign="center center" class="container">
+  <app-picture-min [photos]="data"></app-picture-min>
+  <section fxLayout="row" class="activity">
+    <button [disabled]="page <= 1" mat-icon-button (click)="onPageChange(page = page - 1)">
+      <mat-icon>keyboard_arrow_left</mat-icon>
+    </button>
+    <button mat-icon-button (click)="onPageChange(page = page + 1)">
+      <mat-icon>keyboard_arrow_right</mat-icon>
+    </button>
+  </section>
+</div>
